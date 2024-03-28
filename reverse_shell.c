@@ -6,7 +6,7 @@ unsigned char code[] = \
     
 // To encode ! /!\
 "section .data
-    text db 'stella-launch-solutions.com', 28 
+    text db 'target_website', length 
 section .TEXT
 global _start  _start:
      xor eax, eax
